@@ -1,0 +1,16 @@
+# Do not commit credentials or private working data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.sqlite*
+*.db
+private/
+*.local.md
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+
